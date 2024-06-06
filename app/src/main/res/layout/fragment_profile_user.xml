@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".User.ProfileFragmentUser">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profileImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/portada"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <EditText
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:hint="username"
+        android:text="Nombre de usuario" />
+
+    <!-- Botón de cierre de sesión -->
+
+    <EditText
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:hint="email"
+        android:text="Correo electrónico" />
+
+    <Button
+        android:id="@+id/buttonProductHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_product_history" />
+
+    <Button
+        android:id="@+id/buttonAssistedEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_assisted_events"
+
+        tools:layout_editor_absoluteY="53dp" />
+
+    <Button
+        android:id="@+id/buttonCharts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_charts" />
+
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_logout" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_save" />
+
+
+    <Switch
+        android:id="@+id/switchMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_marginTop="8dp"
+        android:hint="Nigth Mode"></Switch>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/sp"
+            android:src="@drawable/spainbandera"></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/uk"
+            android:src="@drawable/englishbandera"></ImageView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/fr"
+            android:src="@drawable/francebandera"></ImageView>
+
+    </LinearLayout>
+
+</LinearLayout>

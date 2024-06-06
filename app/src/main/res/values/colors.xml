@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="hint_color">#8E8E8E</color>
+    <color name="edit_text_color">#000000</color>
+
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="search_bkd">#E1B36F</color>
+
+
+    <color name="my_primary">#FF5964</color>
+    <color name="my_secondary">#FFE74C</color>
+
+
+
+    <color name="off_white">#FAFAFA</color>
+    <color name="light_gray">#C3C3C3</color>
+
+    <color name="chat_color_sender">#1E88E5</color>
+    <color name="chat_color_receiver">#7CB342</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorOnPrimary">#8F5806</color>
+
+
+    <color name="nightColorPrimary">#FFBB86FC</color>
+    <color name="nightColorPrimaryVariant">#FF3700B3</color>
+    <color name="nightColorOnPrimary">#FFFFFFFF</color>
+    <color name="nightColorSecondary">#FF03DAC5</color>
+    <color name="nightColorSecondaryVariant">#FF018786</color>
+    <color name="nightColorOnSecondary">#FF000000</color>
+    <color name="nightColorBackground">#FF121212</color>
+    <color name="nightColorOnBackground">#FFFFFFFF</color>
+    <color name="nightColorError">#FFCF6679</color>
+    <color name="nightColorOnError">#FFFFFFFF</color>
+    <color name="nightStatusBarColor">#FF121212</color>
+    <color name="nightNavigationBarColor">#FF121212</color>
+
+
+        <color name="search_text_color">#000000</color> <!-- Black color -->
+
+
+
+       <!-- <color name="button_color">#3897f0</color> -->
+    <color name="button_color_pressed_day">#4AC0CD</color>
+    <color name="button_color_hovered_day">#C1CD4A</color>
+    <color name="button_color_default_day">#CD984A</color>
+
+</resources>

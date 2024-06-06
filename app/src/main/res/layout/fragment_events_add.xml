@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Admin.eventsflow.EventsFragmentAdd">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        app:cardCornerRadius="20dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:elevation="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/eventAdd_logo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/baseline_error_24"
+                android:layout_gravity="center"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilEventName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eventAdd_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Event Name"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilEventPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eventAdd_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Event Price"
+                    android:inputType="numberDecimal" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilEventMaxCapacity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eventAdd_MaxCapacity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Max Capacity"
+                    android:inputType="numberDecimal" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/eventAdd_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="30dp"
+                    android:text="Add"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/buttom_color"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/eventCancel_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/white"
+                    android:text="Cancel"
+                    android:backgroundTint="@color/buttom_color"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

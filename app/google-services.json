@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "123697277829",
+    "firebase_url": "https://magic-b0778-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "magic-b0778",
+    "storage_bucket": "magic-b0778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123697277829:android:b99c9709eced5404ff32ec",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChfMa2VHj9yk5O2XordjIqMelJ1bjbwRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123697277829:android:dce8d09ee981c808ff32ec",
+        "android_client_info": {
+          "package_name": "com.example.myapplication1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChfMa2VHj9yk5O2XordjIqMelJ1bjbwRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_margin="14dp"
+    app:cardCornerRadius="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_row"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="?attr/colorPrimary">
+
+        <ImageView
+            android:id="@+id/iv_item_card_logo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/portada"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/gl_item_card_logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl_item_card_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gl_item_card_logo"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ll_item_card_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+          app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+
+
+            <TextView
+                android:id="@+id/tv_item_card_name_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginEnd="5dp"
+                android:textColorHint="@color/white"
+                android:hint="Name:"
+                android:layout_weight="1"
+                android:inputType="text"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_item_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_weight="14"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_item_card_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_item_card_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+
+
+            <TextView
+                android:id="@+id/tv_item_card_category_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:hint="Category:"
+                android:layout_marginEnd="5dp"
+                android:textColorHint="@color/white"
+                android:layout_weight="1"
+                android:inputType="text"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_item_card_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_weight="14"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_item_card_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+           app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_item_card_category"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+
+
+            <TextView
+                android:id="@+id/tv_item_card_price_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginEnd="5dp"
+                android:hint="Price:"
+                android:textColorHint="@color/white"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_item_card_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_weight="14"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_item_card_availability"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll_item_card_price"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/tv_item_card_availability"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Status:"
+                android:layout_marginEnd="5dp"
+                android:textColorHint="@color/white"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tv_item_card_availability_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_weight="14"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/anchor"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@+id/ll_item_card_availability"
+          app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_item_card_cancel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_item_card_aceptOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="@string/aceptOrder"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/anchor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/anchor" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_item_card_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toTopOf="@+id/anchor"
+            app:layout_constraintBottom_toBottomOf="@+id/anchor"
+            app:layout_constraintStart_toEndOf="@+id/anchor"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="visible"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.cardview.widget.CardView>

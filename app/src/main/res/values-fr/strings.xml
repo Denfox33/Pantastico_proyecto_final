@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_product_history">Historique des produits</string>
+    <string name="button_assisted_events">Événements</string>
+    <string name="button_charts">Graphiques</string>
+    <string name="button_logout">Se déconnecter</string>
+    <string name="button_save">Enregistrer les modifications</string>
+
+
+    <string name="app_name">Pantastico</string>
+    <string name="home">Accueil</string>
+    <string name="search">Rechercher</string>
+    <string name="add">Ajouter</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profil</string>
+    <string name="shop">Boutique</string>
+    <string name="hello_blank_fragment">Bonjour fragment vide</string>
+    <string name="user_pass">Utilisateur/Mot de passe</string>
+    <string name="user">Utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="email">Email</string>
+    <string name="login">Se connecter</string>
+    <string name="register">S\'inscrire</string>
+    <string name="no_account">Vous n\'avez pas de compte?</string>
+    <string name="gmail">Gmail</string>
+    <string name="Repeat_password">Confirmer le mot de passe</string>
+    <string name="register_form">Formulaire d\'inscription</string>
+    <string name="back">Retour</string>
+    <string name="remember_password">Se souvenir du mot de passe</string>
+    <string name="users">Utilisateurs</string>
+    <string name="events">Événements</string>
+    <string name="orders">Commandes</string>
+    <string name="product">Produits</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="Admin">Admin</string>
+    <string name="add_producto">Ajouter un produit</string>
+    <string name="buy">Acheter</string>
+    <string name="join">Rejoindre l\'événement</string>
+    <string name="cancel">Annuler</string>
+    <string name="aceptOrder">Accepter</string>
+    <string name="Accept">Accepter</string>
+    <string name="bp">Sac à dos</string>
+    <string name="chat">Chat</string>
+    <string name="precio">Precio</string>
+
+</resources>

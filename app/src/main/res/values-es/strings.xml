@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_product_history">Historial de productos</string>
+    <string name="button_assisted_events">Eventos</string>
+    <string name="button_charts">Graficos</string>
+    <string name="button_logout">Cerrar sesión</string>
+    <string name="button_save">Guardar Cambios</string>
+
+    <string name="app_name">Pantastico</string>
+    <string name="home">Inicio</string>
+    <string name="search">Buscar</string>
+    <string name="add">Añadir</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="profile">Perfil</string>
+    <string name="shop">Tienda</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="user_pass">Usuario/Contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Correo electrónico</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="no_account">¿No tienes una cuenta?</string>
+    <string name="gmail">Gmail</string>
+    <string name="Repeat_password">Confirmar contraseña</string>
+    <string name="register_form">Formulario de registro</string>
+    <string name="back">Atrás</string>
+    <string name="remember_password">Recordar contraseña</string>
+    <string name="users">Usuarios</string>
+    <string name="events">Eventos</string>
+    <string name="orders">Pedidos</string>
+    <string name="product">Productos</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="Admin">Administrador</string>
+    <string name="add_producto">Añadir producto</string>
+    <string name="buy">Comprar</string>
+    <string name="join">Unirse al evento</string>
+    <string name="cancel">Cancelar</string>
+    <string name="aceptOrder">Aceptar</string>
+    <string name="Accept">Aceptar</string>
+    <string name="bp">Pedidos</string>
+    <string name="chat">Chat</string>
+    <string name="precio">Precio</string>
+
+
+</resources>

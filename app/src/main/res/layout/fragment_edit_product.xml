@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Admin.productsflow.EditProductFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        app:cardCornerRadius="20dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:elevation="100dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/edit_iv_item_product_logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/portada"
+            android:layout_gravity="center"
+             />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Name"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilProductType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editProductType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Type"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editProductPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Price"
+                android:inputType="numberDecimal" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilProductStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editProductStock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Stock"
+                android:inputType="numberDecimal" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/editProductAvailable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Available"
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/saveButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="30dp"
+                android:text="Save"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/buttom_color"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/deleteButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/white"
+                android:text="Delete"
+                android:backgroundTint="@color/buttom_color"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

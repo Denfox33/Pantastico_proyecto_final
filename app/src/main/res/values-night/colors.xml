@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="button_color_pressed_day">#651FFF</color>
+    <color name="button_color_hovered_day">@color/hint_color</color>
+    <color name="button_color_default_day">@color/nightColorPrimary</color>
+</resources>

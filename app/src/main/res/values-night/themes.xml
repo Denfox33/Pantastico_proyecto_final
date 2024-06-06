@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+
+        <item name="colorPrimary">@color/nightColorPrimary</item>
+        <item name="colorPrimaryVariant">@color/nightColorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/nightColorOnPrimary</item>
+        <item name="colorSecondary">@color/nightColorSecondary</item>
+        <item name="colorSecondaryVariant">@color/button_text_color</item>
+        <item name="colorOnSecondary">@color/nightColorSecondaryVariant</item>
+        <item name="android:colorBackground">@color/nightColorBackground</item>
+        <item name="colorOnBackground">@color/nightColorOnBackground</item>
+        <item name="android:colorError">@color/nightColorError</item>
+        <item name="colorOnError">@color/nightColorOnError</item>
+        <item name="android:statusBarColor">@color/nightColorSecondaryVariant</item>
+        <item name="android:navigationBarColor">@color/nightColorSecondaryVariant</item>
+
+        <item name="buttonColor">@color/nightColorPrimaryVariant</item>
+
+
+    </style>
+</resources>
+

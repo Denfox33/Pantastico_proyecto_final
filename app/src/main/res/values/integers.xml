@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="user_max_length">16</integer>
+    <integer name="user_min_length">6</integer>
+</resources>

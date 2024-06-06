@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/eventsFragment"
+        android:icon="@drawable/baseline_event_note_24"
+        android:title="@string/events" />
+
+    <item
+        android:id="@+id/productsEditFragment"
+        android:icon="@drawable/baseline_shop_24"
+        android:title="@string/product" />
+
+
+    <item
+        android:id="@+id/orderFragmentCheck"
+        android:icon="@drawable/baseline_beenhere_24"
+        android:title="@string/orders" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/baseline_person_24"
+        android:title="@string/Admin" />
+
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="@string/chat" />
+
+</menu>

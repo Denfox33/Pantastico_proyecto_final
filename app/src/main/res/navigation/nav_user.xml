@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_user"
+    app:startDestination="@id/ordersFragmentUser">
+
+    <fragment
+        android:id="@+id/ordersFragmentUser"
+        android:name="com.example.myapplication1.User.ProductsFragmentUser"
+        android:label="fragment_products_user"
+        tools:layout="@layout/fragment_products_user" />
+    <fragment
+        android:id="@+id/backpackFragmentUser"
+        android:name="com.example.myapplication1.User.BackpackFragmentUser"
+        android:label="fragment_backpack_user"
+        tools:layout="@layout/fragment_backpack_user" />
+    <fragment
+        android:id="@+id/profileFragmentUser"
+        android:name="com.example.myapplication1.User.ProfileFragmentUser"
+        android:label="fragment_profile_user"
+        tools:layout="@layout/fragment_profile_user" >
+        <action
+            android:id="@+id/action_profileFragmentUser_to_assistEventsFragmentUser2"
+            app:destination="@id/assistEventsFragmentUser2" />
+        <action
+            android:id="@+id/action_profileFragmentUser_to_backpackFragmentUser"
+            app:destination="@id/backpackFragmentUser" />
+    </fragment>
+    <fragment
+        android:id="@+id/assistEventsFragmentUser2"
+        android:name="com.example.myapplication1.Admin.eventsflow.AssistEventsFragmentUser"
+        android:label="AssistEventsFragmentUser" />
+    <fragment
+        android:id="@+id/eventsFragmentUser"
+        android:name="com.example.myapplication1.Admin.eventsflow.EventFragmentCheckDeleteEdit"
+        android:label="EventFragmentCheckDeleteEdit" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.myapplication1.newfeatures.Chat.ChatFragment"
+        android:label="ChatFragment" >
+        <action
+            android:id="@+id/action_chatFragment2_to_chatUsersFragment"
+            app:destination="@id/chatUsersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatUsersFragment"
+        android:name="com.example.myapplication1.newfeatures.Chat.ChatUsersFragment"
+        android:label="fragment_chat_users"
+        tools:layout="@layout/fragment_chat_users" >
+        <action
+            android:id="@+id/action_chatUsersFragment_to_chatFragment2"
+            app:destination="@id/chatFragment" />
+    </fragment>
+
+
+</navigation>
